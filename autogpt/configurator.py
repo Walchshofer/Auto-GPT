@@ -42,7 +42,7 @@ def create_config(
     """
     CFG.set_debug_mode(False)
     CFG.set_continuous_mode(False)
-    CFG.set_speak_mode(False)
+    CFG.set_speak_mode(True)
 
     if debug:
         logger.typewriter_log("Debug Mode: ", Fore.GREEN, "ENABLED")
